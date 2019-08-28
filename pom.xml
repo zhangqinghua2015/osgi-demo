@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zqh</groupId>
+    <artifactId>osgi-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>osgi-demo1</module>
+        <module>osgi-demo2</module>
+        <module>osgi-demo1_1</module>
+        <module>osgi-demo1_2</module>
+        <module>osgi-demo3</module>
+        <module>osgi-demo4</module>
+        <module>osgi-demo5</module>
+        <module>osgi-demo6</module>
+        <module>osgi-demo7</module>
+        <module>osgi-demo8</module>
+    </modules>
+
+
+</project>

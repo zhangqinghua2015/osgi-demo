@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd">
+    <bean id="myConfigurator" class="com.zqh.osgi.demo7.Configurator"/>
+    <service ref="myConfigurator" interface="org.osgi.service.cm.ManagedService">
+        <service-properties>
+            <entry key="service.pid" value="com.zqh.osgi.demo7"/>
+        </service-properties>
+    </service>
+    <!--<service interface="org.osgi.service.cm.ManagedService">
+        <service-properties>
+            <entry key="service.pid" value="ins 7" />
+        </service-properties>
+        <bean class="com.zqh.osgi.demo7.Configurator" />
+    </service>-->
+
+</blueprint>
